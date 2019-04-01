@@ -1,16 +1,16 @@
 cmake_minimum_required(VERSION 3.6)
 
 option(IO "Enable the I/O Services SDK" OFF)
-option(VIS "Enable the Vis & Analysis SDK" OFF)
+option(VIZ "Enable the Viz & Analysis SDK" OFF)
 
-if(IO AND VIS)
-  message(FATAL_ERROR "Exactly one of IO or VIS must be enabled")
+if(IO AND VIZ)
+  message(FATAL_ERROR "Exactly one of IO or VIZ must be enabled")
 elseif(IO)
   project(ecp-io-sdk)
-elseif(VIS)
-  project(ecp-vis-sdk)
+elseif(VIZ)
+  project(ecp-viz-sdk)
 else()
-  message(FATAL_ERROR "Exactly one of IO or VIS must be enabled")
+  message(FATAL_ERROR "Exactly one of IO or VIZ must be enabled")
 endif()
 
 include(GNUInstallDirs)
