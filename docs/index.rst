@@ -18,6 +18,11 @@ Funded by the `Exascale Computing Project (ECP) <https://www.exascaleproject.org
 
    setup/index
 
+.. toctree::
+   :caption: Examples
+
+   examples/index
+
 Indices and tables
 ==================
 
