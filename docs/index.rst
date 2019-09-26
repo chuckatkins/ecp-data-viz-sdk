@@ -3,15 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ECP Data & Vis SDK's documentation!
-==============================================
+Data & Vis SDK
+==============
 
-Contents:
+Funded by the `Exascale Computing Project (ECP) <https://www.exascaleproject.org/>`_, U.S. Department of Energy
 
 .. toctree::
-   :maxdepth: 2
+   :caption: Introduction
 
+   intro/index
 
+.. toctree::
+   :caption: Installation
+
+   setup/index
 
 Indices and tables
 ==================
