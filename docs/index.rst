@@ -23,6 +23,11 @@ Funded by the `Exascale Computing Project (ECP) <https://www.exascaleproject.org
 
    examples/index
 
+.. toctree::
+  :caption: HDF5 Compatibility
+
+  hdf5/index
+
 Indices and tables
 ==================
 
