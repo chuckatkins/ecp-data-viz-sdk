@@ -10,7 +10,7 @@ The following projects are included as part of the Data & Vis SDK:
   * [ADIOS](https://csmd.ornl.gov/software/adios2): An adaptable framework for HPC I/O supporting files, in situ, and in transit data movement.
   * [Darshan](https://www.mcs.anl.gov/research/projects/darshan/): An HPC I/O characterization tool.
   * [FAODEL](https://github.com/faodel/faodel): A collection of software libraries that are used to implement different data management services on high-performance computing (HPC) platforms.
-  * [HDF5](https://www.hdfgroup.org/solutions/hdf5/): HDF5 is a data model, library, and file format for storing and managing data.
+  * [HDF5](https://www.hdfgroup.org/solutions/hdf5/): A data model, library, and file format for storing and managing data.
   * [PNetCDF](https://parallel-netcdf.github.io/): A high-performance parallel I/O library for accessing Unidata's NetCDF, files in classic formats, specifically the formats of CDF-1, 2, and 5.
   * [UnifyFS](https://unifyfs.readthedocs.io/en/latest/): A filesystem for burst buffers.
   * [VeloC](https://veloc.readthedocs.io/en/latest/): A multi-level checkpoint-restart runtime for HPC supercomputing infrastructures and large-scale data centers.
